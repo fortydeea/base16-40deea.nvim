@@ -13,7 +13,7 @@ require("base16-colorscheme").setup({
 	base05 = "#D3DBDE",
 	base06 = "#091997",
 	base07 = "#FFFFFF",
-	base08 = "#8282EA",
+	base08 = "#BCC0F7",
 	base09 = "#D5DBA0",
 	base0A = "#86E271",
 	base0B = "#E2CA71",
