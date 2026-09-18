@@ -5,7 +5,7 @@ end
 vim.g.colors_name = "base16-40deea"
 
 require("base16-colorscheme").setup({
-	base00 = "#080808",
+	base00 = "#191919",
 	base01 = "#404040",
 	base02 = "#061921",
 	base03 = "#5C6B70",
