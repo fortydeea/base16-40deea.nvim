@@ -4,7 +4,6 @@ if vim.fn.exists("syntax_on") == 1 then
 end
 vim.g.colors_name = "base16-40deea"
 
--- dfdsf
 require("base16-colorscheme").setup({
 	base00 = "#191919",
 	base01 = "#273338",
@@ -24,11 +23,11 @@ require("base16-colorscheme").setup({
 	base0F = "#D3DBDE",
 })
 
--- Indentation override
+-- Indentation overrides
 vim.api.nvim_set_hl(0, "IblIndent", { fg = "#40DEEA" })
 vim.api.nvim_set_hl(0, "IndentBlanklineChar", { fg = "#40DEEA" })
 
--- Status line override
+-- Status line overrides
 vim.api.nvim_set_hl(0, "StatusLine", { fg = "#0a0a0c", bg = "#40DEEA" })
 vim.api.nvim_set_hl(0, "StatusLineNC", { fg = "#40DEEA", bg = "#273338" })
 
@@ -40,10 +39,10 @@ vim.api.nvim_set_hl(0, "MiniStatuslineModeReplace", { fg = "#40DEEA", bg = "#332
 vim.api.nvim_set_hl(0, "MiniStatuslineModeCommand", { fg = "#40DEEA", bg = "#241A33" })
 vim.api.nvim_set_hl(0, "MiniStatuslineModeOther", { fg = "#40DEEA", bg = "#143330" })
 
--- Message area override
+-- Message area overrides
 vim.api.nvim_set_hl(0, "MsgArea", { fg = "#40DEEA" })
 
--- Neo-tree override
+-- Neo-tree overrides
 vim.api.nvim_set_hl(0, 'NeoTreeNormal',   { bg = '#211f1d' })
 vim.api.nvim_set_hl(0, 'NeoTreeNormalNC', { bg = '#211f1d' })
 vim.api.nvim_set_hl(0, 'NeoTreeEndOfBuffer', { bg = '#211f1d' })
