@@ -53,3 +53,11 @@ vim.api.nvim_set_hl(0, "NeoTreeGitAdded", { fg = "#7EC488", bg = "NONE" })
 vim.api.nvim_set_hl(0, "NeoTreeGitDeleted", { fg = "#D97B70", bg = "NONE" })
 vim.api.nvim_set_hl(0, "NeoTreeGitConflict", { fg = "#D97B70", bg = "NONE", bold = true })
 vim.api.nvim_set_hl(0, "NeoTreeGitUntracked", { fg = "#C9A0D5" })
+
+-- Telescope overrides
+vim.api.nvim_set_hl(0, 'TelescopeNormal',        { bg = "#211F1D" })
+vim.api.nvim_set_hl(0, 'TelescopeBorder',        { bg = "#211F1D",  fg = "#40DEEA" })
+vim.api.nvim_set_hl(0, 'TelescopePreviewNormal', { bg = "#211F1D" })
+vim.api.nvim_set_hl(0, 'TelescopePreviewBorder', { bg = "#211F1D",  fg = "#40DEEA" })
+vim.api.nvim_set_hl(0, 'TelescopePromptNormal',  { bg = "#211F1D" })
+vim.api.nvim_set_hl(0, 'TelescopePromptBorder',  { bg = "#211F1D", fg = "#40DEEA" })
