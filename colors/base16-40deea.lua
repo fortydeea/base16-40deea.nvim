@@ -43,7 +43,11 @@ vim.api.nvim_set_hl(0, "MiniStatuslineModeOther", { fg = "#40DEEA", bg = "#14333
 -- Message area override
 vim.api.nvim_set_hl(0, "MsgArea", { fg = "#40DEEA" })
 
--- neo-tree override
+-- Neo-tree override
+vim.api.nvim_set_hl(0, 'NeoTreeNormal',   { bg = '#211f1d' })
+vim.api.nvim_set_hl(0, 'NeoTreeNormalNC', { bg = '#211f1d' })
+vim.api.nvim_set_hl(0, 'NeoTreeEndOfBuffer', { bg = '#211f1d' })
+
 vim.api.nvim_set_hl(0, "NeoTreeGitModified", { fg = "#E0A25C", bg = "NONE" })
 vim.api.nvim_set_hl(0, "NeoTreeGitUntracked", { fg = "#7EC488", bg = "NONE" })
 vim.api.nvim_set_hl(0, "NeoTreeGitAdded", { fg = "#7EC488", bg = "NONE" })
