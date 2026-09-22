@@ -3,6 +3,7 @@
 A dark theme with #40DEEA as the main color. This theme is made with [RRethy/base16-nvim](https://github.com/RRethy/base16-nvim).
 
 ![base16-40deea theme example](./assets/example.png)
+![base16-40deea theme example telescope](./assets/example_telescope.png)
 
 # Installation
 
